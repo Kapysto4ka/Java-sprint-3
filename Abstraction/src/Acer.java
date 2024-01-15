@@ -1,5 +1,6 @@
-public class Acer extends Notebook{
-    void models(){
-        System.out.println("Acer models : Acer Aspire, Acer Nitro, Acer TravelMate");
+public class Acer extends Notebook {
+    @Override
+    void models() {
+        System.out.println("Acer models : Acer Aspire, Acer Predator, Acer Swift");
     }
 }
